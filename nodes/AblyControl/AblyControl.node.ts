@@ -8,14 +8,14 @@ import { tokensDescription } from './resources/tokens';
 
 export class AblyControl implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'ably-control',
+		displayName: 'Ably Control',
 		name: 'N8nDevAblyControl',
 		icon: { light: 'file:./ably-control.svg', dark: 'file:./ably-control.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Use the Control API to manage your applications, namespaces, keys, queues, rules, and more',
-		defaults: { name: 'ably-control' },
+		description: 'Use Control API to manage apps, namespaces, keys, queues, and rules.',
+		defaults: { name: 'Ably Control' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

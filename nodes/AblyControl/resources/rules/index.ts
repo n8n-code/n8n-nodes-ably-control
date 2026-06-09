@@ -85,7 +85,7 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -147,7 +147,7 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -225,7 +225,7 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -243,7 +243,7 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Rule Id",
+			"displayName": "Rule ID",
 			"name": "rule_id",
 			"required": true,
 			"description": "The rule ID.",
@@ -305,7 +305,7 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -323,7 +323,7 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Rule Id",
+			"displayName": "Rule ID",
 			"name": "rule_id",
 			"required": true,
 			"description": "The rule ID.",

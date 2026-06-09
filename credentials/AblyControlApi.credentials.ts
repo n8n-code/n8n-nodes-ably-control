@@ -8,7 +8,7 @@ import type {
 export class AblyControlApi implements ICredentialType {
 	name = 'N8nDevAblyControlApi';
 
-	displayName = 'ably-control API';
+	displayName = 'Ably Control API';
 
 	icon: Icon = { light: 'file:../nodes/AblyControl/ably-control.svg', dark: 'file:../nodes/AblyControl/ably-control.dark.svg' };
 
@@ -22,7 +22,7 @@ export class AblyControlApi implements ICredentialType {
 			default: 'https://control.ably.net/v1',
 			required: true,
 			placeholder: 'https://control.ably.net/v1',
-			description: 'The base URL of your ably-control API server',
+			description: 'The base URL of your Ably Control API server',
 		},
 		{
 			displayName: 'API Key',

@@ -85,7 +85,7 @@ export const namespacesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -147,7 +147,7 @@ export const namespacesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -191,7 +191,7 @@ export const namespacesDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "namespace",
@@ -291,7 +291,7 @@ export const namespacesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tls Only",
+			"displayName": "TLS Only",
 			"name": "tlsOnly",
 			"type": "boolean",
 			"default": false,
@@ -360,7 +360,7 @@ export const namespacesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -378,7 +378,7 @@ export const namespacesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Namespace Id",
+			"displayName": "Namespace ID",
 			"name": "namespace_id",
 			"required": true,
 			"description": "The namespace ID.",
@@ -440,7 +440,7 @@ export const namespacesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -458,7 +458,7 @@ export const namespacesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Namespace Id",
+			"displayName": "Namespace ID",
 			"name": "namespace_id",
 			"required": true,
 			"description": "The namespace ID.",
@@ -576,7 +576,7 @@ export const namespacesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tls Only",
+			"displayName": "TLS Only",
 			"name": "tlsOnly",
 			"type": "boolean",
 			"default": false,

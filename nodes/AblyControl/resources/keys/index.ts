@@ -85,7 +85,7 @@ export const keysDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -147,7 +147,7 @@ export const keysDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -287,7 +287,7 @@ export const keysDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -305,7 +305,7 @@ export const keysDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Key Id",
+			"displayName": "Key ID",
 			"name": "key_id",
 			"required": true,
 			"description": "The API key ID.",
@@ -442,7 +442,7 @@ export const keysDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -460,7 +460,7 @@ export const keysDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Key Id",
+			"displayName": "Key ID",
 			"name": "key_id",
 			"required": true,
 			"description": "The key ID.",

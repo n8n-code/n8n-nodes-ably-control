@@ -73,7 +73,7 @@ export const queuesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -135,7 +135,7 @@ export const queuesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -301,7 +301,7 @@ export const queuesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Id",
+			"displayName": "App ID",
 			"name": "app_id",
 			"required": true,
 			"description": "The application ID.",
@@ -319,7 +319,7 @@ export const queuesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Queue Id",
+			"displayName": "Queue ID",
 			"name": "queue_id",
 			"required": true,
 			"description": "The queue ID.",

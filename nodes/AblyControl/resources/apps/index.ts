@@ -97,7 +97,7 @@ export const appsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "account_id",
 			"required": true,
 			"description": "The account ID for which to retrieve the associated applications.",
@@ -159,7 +159,7 @@ export const appsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Account Id",
+			"displayName": "Account ID",
 			"name": "account_id",
 			"required": true,
 			"description": "The account ID of the account in which to create the application.",
@@ -338,7 +338,7 @@ export const appsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tls Only",
+			"displayName": "TLS Only",
 			"name": "tlsOnly",
 			"type": "boolean",
 			"default": true,
@@ -407,7 +407,7 @@ export const appsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The ID of the application to be deleted.",
@@ -469,7 +469,7 @@ export const appsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The ID of application to be updated.",
@@ -647,7 +647,7 @@ export const appsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tls Only",
+			"displayName": "TLS Only",
 			"name": "tlsOnly",
 			"type": "boolean",
 			"default": true,
@@ -716,7 +716,7 @@ export const appsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "The application ID.",

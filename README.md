@@ -53,14 +53,62 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Apps | Get lists apps, Post creates an app, Deletes an app, Patch updates an app, Post updates apps apns info from a p12 file |
-| Keys | Get lists app keys, Post creates a key, Patch updates a key, Post revokes a key |
-| Namespaces | Get lists namespaces, Post creates a namespace, Deletes a namespace, Patch updates a namespace |
-| Queues | Get lists queues, Post creates a queue, Deletes a queue |
-| Rules | Get lists reactor rules, Post creates a reactor rule, Deletes a reactor rule, Patch updates a reactor rule |
-| Tokens | Get token details |
+<details>
+<summary><b>Apps</b> (5 operations)</summary>
+
+- Get Lists apps
+- Post Creates an app
+- Delete s an app
+- Patch Updates an app
+- Post Updates app s APNs info from a p12 file
+
+</details>
+
+<details>
+<summary><b>Keys</b> (4 operations)</summary>
+
+- Get Lists app keys
+- Post Creates a key
+- Patch Updates a key
+- Post Revokes a key
+
+</details>
+
+<details>
+<summary><b>Namespaces</b> (4 operations)</summary>
+
+- Get Lists namespaces
+- Post Creates a namespace
+- Delete s a namespace
+- Patch Updates a namespace
+
+</details>
+
+<details>
+<summary><b>Queues</b> (3 operations)</summary>
+
+- Get Lists queues
+- Post Creates a queue
+- Delete s a queue
+
+</details>
+
+<details>
+<summary><b>Rules</b> (4 operations)</summary>
+
+- Get Lists Reactor rules
+- Post Creates a Reactor rule
+- Delete s a Reactor rule
+- Patch Updates a Reactor rule
+
+</details>
+
+<details>
+<summary><b>Tokens</b> (1 operations)</summary>
+
+- Get token details
+
+</details>
 
 ---
 
