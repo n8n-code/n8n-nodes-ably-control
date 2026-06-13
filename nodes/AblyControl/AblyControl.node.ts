@@ -7,32 +7,32 @@ import { rulesDescription } from './resources/rules';
 import { tokensDescription } from './resources/tokens';
 
 export class AblyControl implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'Ably Control',
-		name: 'N8nDevAblyControl',
-		icon: { light: 'file:./ably-control.svg', dark: 'file:./ably-control.dark.svg' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Use Control API to manage apps, namespaces, keys, queues, and rules.',
-		defaults: { name: 'Ably Control' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevAblyControlApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Ably Control',
+                name: 'N8nDevAblyControl',
+                icon: { light: 'file:./ably-control.svg', dark: 'file:./ably-control.dark.svg' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'Use Control API to manage apps, namespaces, keys, queues, and rules.',
+                defaults: { name: 'Ably Control' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevAblyControlApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -78,6 +78,6 @@ export class AblyControl implements INodeType {
 		...queuesDescription,
 		...rulesDescription,
 		...tokensDescription
-		],
-	};
+                ],
+        };
 }
